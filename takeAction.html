@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>someplace sustainable</title>
+  <link href="takeAction.css" rel="stylesheet" type="text/css" />
+  <!-- CHANGES FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVIGATION BAR -->
+ <nav> 
+   <ul> 
+     <li> <a href= "index.html"> home </a></li>
+     <li> <a href= "aboutUs.html"> about us </a></li>
+     <li> <a href= "takeAction.html"> take action </a></li>
+     <li> <a href= "map.html"> map </a></li>
+   </ul>
+  </nav>
+  
+<!-- HEADER -->
+  <h1> take action </h1>
+
+  <p>
+   although many cities across the united states are prosperous economically, they still continue to lag behind in social and environmental sustainability in comparison to many of their european and asian counterparts. in order to fill this gap, strategic investment in social policy and environmental strategy is necessary. we’ve created this tab to enable users to advocate and push for necessary legislation to enact widescale change. below is a tool that you an use to send a letter urging your local representative to push for more sustainable practices. find contact info for your senator/representative <a href= "https://www.congress.gov/members"> here</a>. use the script generator below to get started.
+  </p>
+
+  
+<div class = "holder" > 
+  <div>
+    <div >
+      <label>name:</label>
+      <input class ="name" type="text" placeholder="ex: john">
+  </div>
+
+  <div >
+    <label>city:</label>
+    <input class="city" type="text" placeholder="ex: las vegas">
+  </div>
+
+  <input class = "script" type="submit" value="create script">
+</div>
+
+</div>
+
+  <div newScript>
+
+		<p class="returned"> </p>
+
+    
+  </div>
+  
+    <!-- LOADS JAVASCRIPT -->
+  <script src ="takeAction.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</body>
+
+</html>
